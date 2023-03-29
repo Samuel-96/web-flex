@@ -1,0 +1,136 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: #041f47;
+    color: #F9FAF8;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+    
+
+.HeaderLogo{
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.lista, li{
+    display: inline;
+    color: #F9FAF8;
+    margin-right: 20px;
+}
+
+
+
+.informacion-web{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    background-color: #041f47;
+}
+
+.informacion-izquierda{
+    padding: 20px 20px 20px 20px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.pinfo{
+    padding: 100px 100px 100px 100px;
+    background-color: rgb(173, 173, 186);
+
+}
+
+
+.boton-arriba{
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 8px 8px 8px;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-information{
+    display: flex;
+    padding: 20px 20px 20px 20px;
+}
+
+.random-information > div{
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    border: 5px solid #01548f;
+
+}
+
+.inspiring-quote{
+    padding: 40px 40px 40px 40px;
+    background-color: #e0e3e6;
+    text-align: center;
+    font-style: italic;
+}
+
+.Thor{
+    float: right;
+    font-weight: bold;
+}
+
+.action{
+    margin: 30px 30px 30px 30px;
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    justify-content: space-between; /* Alinea los elementos a la izquierda y a la derecha */
+}
+
+.action-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.action-right{
+    padding: 20px 20px 20px 20px;
+}
+
+.pCall{
+    font-size: 20px;
+}
+
+footer{
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    background-color: #041f47;
+    color: white;
+    text-align: center;
+}
+
+.boton-debajo{
+    background-color: #3882F6;
+    font-size: 20px;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    border: solid;
+    border-color: white;
+    text-align: center;
+}
